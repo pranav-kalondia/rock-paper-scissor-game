@@ -47,13 +47,13 @@ html{
 
     .choose img{
     
-    height: 150px;
+    height: 125px;
     margin-top: 20px;
 }
 .choose{
     display: block;
-    margin-left: 18%;
-    margin-right: 27%;
+    margin-left: 22%;
+    margin-right: 22%;
     
 }
 #msg{
