@@ -1,0 +1,94 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    background-color: #081724;
+    color: white;
+    
+}
+.choose :hover{
+    border-radius: 70px;
+    
+}
+.choose img{
+    height: 250px;
+    margin-top: 50px;
+}
+.choose{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+#score{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+#msg{
+    
+    color: white;
+    background-color: #081724;
+    display: inline-block;
+    position: absolute;
+    left:35%;
+    right: 35%;
+    padding: 20px;
+   
+
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 649px) {
+
+    .choose img{
+    
+    height: 100px;
+    margin-top: 20px;
+}
+.choose{
+    display: block;
+    margin-left: 27%;
+    margin-right: 27%;
+    
+}
+#msg{
+    font-size: large;
+    height: 40px;
+    color: white;
+    background-color: #081724;
+    
+    
+    border-radius: 10px;
+    position: absolute;
+    right: 20%;
+    left: 20%;;
+    padding-bottom: 3px;
+    padding-top: 15px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.heading{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: #081724;
+    color: white;
+
+
+
+}
+#score{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+}
